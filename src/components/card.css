@@ -1,0 +1,51 @@
+.card {
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: .2rem;
+    border-radius: .4rem;
+    height: 320px;
+    width: 220px;
+    margin: 0 .5rem;
+}
+
+img.card--image {
+    position: relative;
+    display: block;
+    width: 210px;
+    object-fit:cover;
+    height: 180px;
+}
+
+.card-info {
+    font-weight: 500;
+    margin-top: 1rem;
+    padding-left: .5rem;
+}
+
+div.card-info > div.card-breed {
+    position: relative;
+    font-size: 1.5rem;
+    color: rgb(29, 29, 29);
+}
+
+div.card-info > div.card-price {
+    position: relative;
+    color: red;
+    font-size: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+div.card-info > div.card-rating {
+    position: relative;
+    color: blue;
+    font-size: .9rem;
+    margin-top: .5rem;
+}
+
+button.buy-btn {
+    cursor: pointer;
+    position: relative;
+    padding: .2rem .4rem;
+    margin: 0 1rem;
+}

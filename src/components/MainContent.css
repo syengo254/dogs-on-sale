@@ -1,0 +1,17 @@
+main {
+ width: 100%;
+}
+
+main > .slider {
+    margin: 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.cards {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 1rem;
+}
